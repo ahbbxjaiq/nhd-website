@@ -16,12 +16,13 @@
   }
 
   a:hover {
-    color: #7a7a7a;
+    color: #606060;
   }
 
   .dropdown {
     float: right;
     overflow: hidden;
+    transition: 0.2s 0;
     
     .dropbtn {
       font-size: 16px;
@@ -51,13 +52,13 @@
       }
 
       a:hover {
-        color: #7a7a7a;
+        color: #606060;
       }
     }
   }
 
   .dropdown:hover .dropbtn {
-    color: #7a7a7a;
+    color: #606060;
   }
 
   .dropdown:hover .dropdown-content {
