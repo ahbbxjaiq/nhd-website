@@ -14,7 +14,7 @@
     padding: 14px 16px;
     text-decoration: none;
 
-    :hover {
+    & :hover {
       color: #7a7a7a;
     }
   }
@@ -23,7 +23,7 @@
     float: right;
     overflow: hidden;
 
-    :hover .dropbtn {
+    & :hover .dropbtn {
       color: #7a7a7a;
     }
     
@@ -37,7 +37,7 @@
       margin: 0;
     }
 
-    :hover .dropdown-content {
+    & :hover .dropdown-content {
       display: block;
     }
     
@@ -57,7 +57,7 @@
         display: block;
         text-align: left;
 
-        :hover {
+        & :hover {
           color: #7a7a7a;
         }
       }
