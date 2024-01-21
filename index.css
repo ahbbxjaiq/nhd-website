@@ -1,17 +1,4 @@
 .c1363 {
   height: 100%;
-  background-color: #000000;
-}
-
-@media screen and (max-width: 1110px) {
-  .c1363 {
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 1110px) {
-  .c1363 {
-    max-width: 1110px;
-    width: 100%;
-  }
+  background-color: #F3F3F3;
 }
