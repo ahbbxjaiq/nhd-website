@@ -1,3 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.nav {
+  overflow: hidden;
+  background-color: #F3F3F3;
+  border-bottom: 1px solid #181818;
+
+  a {
+    float: right;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #111111;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+    :hover {
+      color: #7a7a7a;
+    }
+  }
+
+  .dropdown {
+    float: right;
+    overflow: hidden;
+
+    :hover .dropbtn {
+      color: #7a7a7a;
+    }
+    
+    .dropbtn {
+      font-size: 16px;
+      font-family: 'Open Sans', sans-serif;
+      border: none;
+      outline: none;
+      color: #111111;
+      padding: 14px 16px;
+      margin: 0;
+    }
+
+    :hover .dropdown-content {
+      display: block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #F3F3F3;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+
+      a {
+        float: none;
+        color: #111111;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+
+        :hover {
+          color: #7a7a7a;
+        }
+      }
+    }
+  }
+}
+
 .c1363 {
   height: 100%;
   background-color: #F3F3F3;
