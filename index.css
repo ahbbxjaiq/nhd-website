@@ -30,6 +30,7 @@
 	 overflow: hidden;
 	 transition: 0.2s;
 	 position: static;
+	 background-color: #f3f3f3;
 }
  .nav .dropdown .dropbtn {
 	 font-size: 16px;
