@@ -99,8 +99,8 @@
 .footer div {
 	background-color: #f6f6f6;
 	text-align: center;
-	box-shadow:  20px 20px 60px #bebebe,
-             -20px -20px 60px #ffffff;
+	box-shadow:  5px 5px 10px #cccccc,
+	             -5px -5px 10px #f4f4f4;
 	border-radius: 10px;
 	width: auto;
 	height: auto;
