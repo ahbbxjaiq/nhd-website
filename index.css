@@ -108,7 +108,10 @@
 	max-height: 300px;
 	padding: 16px 14px;
 	overflow: hidden;
-    background: rgba(255, 255, 255, 0.25);
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    backdrop-filter: blur(20px);
+    	background: rgba(255, 255, 255, 0.25);
+    	border: 1px solid rgba(255, 255, 255, 0.18);
+    	backdrop-filter: blur(20px);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
