@@ -174,3 +174,9 @@
 .quote-author {
   text-shadow: 0 2px 4px rgba(71,97,206,.36);
 }
+
+.tall-boi {
+ max-height: 900px;
+ padding: 30px;
+}
+
