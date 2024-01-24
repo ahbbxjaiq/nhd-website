@@ -164,3 +164,12 @@
  border-left: 4px solid white;
  padding-left: 20px;
 }
+
+.quote-text {
+ text-shadow: 0 2px 4px rgba(71,97,206,.36);
+ font-style: italic;
+}
+
+.quote-author {
+  text-shadow: 0 2px 4px rgba(71,97,206,.36);
+}
