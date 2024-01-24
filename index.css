@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Poppins&display=swap'); 
+:root {
+ --text-shadow: 0 2px 4px rgb(85 85 85 / 36%);
+}
+
 .container {
 	width: 100% !important;
 	padding: 0 0 !important;
@@ -17,7 +21,7 @@
 	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
 	color: white;
-	text-shadow: 0 2px 4px rgb(71 97 206 / 36%); 
+	text-shadow: var(--text-shadow); 
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -43,7 +47,7 @@
 	margin: 0;
 	transition: 0.2s;
 	background: transparent;
-	text-shadow: 0 2px 4px rgba(71,97,206,.36);
+	text-shadow: var(--text-shadow);
 }
  .nav .dropdown .dropdown-content {
 	display: none;
@@ -110,14 +114,14 @@
     	font-weight: bold;
 	font-family: sans-serif;
     	color: white;
-    	text-shadow: 0 2px 4px rgba(71,97,206,.36);
+    	text-shadow: var(--text-shadow);
 }
 .main .header .header-subtitle {
 	font-size: 25px;
 	font-family: sans-serif;
     	letter-spacing: -0.9px;
     	color: white;
-    	text-shadow: 0 2px 4px rgba(71,97,206,.36);
+    	text-shadow: var(--text-shadow);
     	line-height: 22px;
 }
 .main .info {
@@ -145,7 +149,7 @@
     	border: 1px solid rgba(255, 255, 255, 0.18);
 	backdrop-filter: blur(20px);
 	font-family: sans-serif;
-    	text-shadow: 0 2px 4px rgba(71,97,206,.36);
+    	text-shadow: var(--text-shadow);
 }
 .main-text {
  width: 100%;
@@ -163,14 +167,14 @@
  font-size: 18px;
  line-height: 40px;
  text-align: center;
-     	text-shadow: 0 2px 4px rgba(71,97,206,.36);
+     	text-shadow: var(--text-shadow);
 }
 .-title {
  font-weight: bold;
  font-size: 20px;
  margin: 10px 0;
  text-align: center;
- text-shadow: 0 2px 4px rgba(71,97,206,.36);
+ text-shadow: var(--text-shadow);
 }
 
 .quote-box {
@@ -180,12 +184,12 @@
 }
 
 .quote-text {
- text-shadow: 0 2px 4px rgba(71,97,206,.36);
+ text-shadow: var(--text-shadow);
  font-style: italic;
 }
 
 .quote-author {
-  text-shadow: 0 2px 4px rgba(71,97,206,.36);
+  text-shadow: var(--text-shadow);
 }
 
 .tall-boi {
@@ -204,7 +208,7 @@
 
 figcaption {
  color: white;
- text-shadow: 0 2px 4px rgba(71,97,206,.36);
+ text-shadow: var(--text-shadow);
  font-family: sans-serif;
  text-align: center;
 }
